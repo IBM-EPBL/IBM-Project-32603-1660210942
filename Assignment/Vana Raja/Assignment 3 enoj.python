@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Oct 01 08:42:54 2022
+@author: AVR
+"""
+
+import emoji 
+print(emoji.emojize('Python is :thumbs_up:')
