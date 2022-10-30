@@ -1,0 +1,14 @@
+<html>  
+<head>  
+<title>Success</title>  
+</head>  
+<body>  
+<p>File Uploaded Successfully</p>  
+<p>File Name: {{name}}</p>  
+<b> {{Y}}</b>
+<br>
+<b> {{B}}</b>
+<br>
+<b>{{C}}</b>
+</body>  
+</html>
