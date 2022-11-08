@@ -2,7 +2,6 @@
 """
 Created on Thu Sep 22 14:47:23 2022
 
-@author: M17
 """
 
 from flask import Flask,render_template, request 
