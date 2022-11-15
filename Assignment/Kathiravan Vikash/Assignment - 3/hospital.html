@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Hospital</title>
+    </head>
+    <body style="background-color:green">
+	<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "2416d72e-10c1-4021-9a21-beb300e71b3f", // The ID of this integration.
+    region: "jp-tok", // The region your integration is hosted in.
+    serviceInstanceID: "b7676f55-f497-4acc-b9a9-93bd66022f1a", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+        <h2 style="text-align: center;color:red">Welcome to JK Hospital</h2>
+        <ul>
+		<li>ENT</li>
+		<li>Spinal</li>
+		<li>Ortho</li>
+	</ul>
+		
+    </body>
+
+</html>
